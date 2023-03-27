@@ -10,26 +10,24 @@
     <title>Ejercicio 09 - Gonzalo Gonzalez</title>
 </head>
 <body>
-    <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col img-login">
+    <div class="contenedor">
+        <div class="col img-login">
             <h1 class="admin">admin</h1> 
-          </div>
-          <div class="col bg-light">
-            <div class="row align-self-start">
-                <h2 class="login">Login</h2>
-            </div>
-            <div class="row align-self-start" >
-                <input type="email" class="box" placeholder="email">
-                <input type="password" class="box" placeholder="contraseña">
-            </div>
-            <div class="row align-self-start" style="text-align: right;">
-                <a href="#" >¿Olvidaste tu contraseña?</a>
-            </div>
-            <div class="row align-self-start">
-                <input type="submit" value="Ingresar">
-            </div>                  
         </div>
-      </div>    
-</body>
+        <div class="col bg-light">
+            <form action="">
+                <div class="row titulo">
+                    <h2 class="login">Login</h2>
+                </div>
+                <div class="row inputs">                            
+                    <input type="email" class="box" placeholder="email">
+                    <input type="password" class="box" placeholder="contraseña">
+                    <div style="text-align: right;">
+                        <a href="#" >¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <input type="submit" class="box btn-ingresar" value="Ingresar">
+                </div>                    
+            </form>
+        </div>
+    </body>
 </html>
