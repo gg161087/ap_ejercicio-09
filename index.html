@@ -9,25 +9,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Ejercicio 09 - Gonzalo Gonzalez</title>
 </head>
-<body>
-    <div class="contenedor">
-        <div class="col img-login">
-            <h1 class="admin">admin</h1> 
-        </div>
-        <div class="col bg-light">
-            <form action="">
-                <div class="row titulo">
-                    <h2 class="login">Login</h2>
+    <body>        
+    <div class="container align-items-center justify-content-center bg-dark">
+        <div class="row align-items-center justify-content-center" style="height: 500px;">
+            <div class="col col-lg-4 col-md-3 col-sm-5 col-10 img-login">
+                <div class="contenedor">
+                    <img class="img-fluid" src="./assets/img-login.jpg" alt="login">
+                    <div class="centered">Admin</div>
                 </div>
-                <div class="row inputs">                            
-                    <input type="email" class="box" placeholder="email">
-                    <input type="password" class="box" placeholder="contraseña">
-                    <div style="text-align: right;">
+                <!-- <h1 class="admin">admin</h1>  -->
+            </div>
+            <div class="col col-lg-4 col-md-3 col-sm-5 col-10">
+                <form action="">
+                    <div class="form-group">
+                        <h2 class="login">Login</h2>
+                        <input type="email" class="box" placeholder="email">
+                        <input type="password" class="box" placeholder="contraseña">                
                         <a href="#" >¿Olvidaste tu contraseña?</a>
+                        <input type="submit" class="box btn-ingresar" value="Ingresar">                                  
                     </div>
-                    <input type="submit" class="box btn-ingresar" value="Ingresar">
-                </div>                    
-            </form>
-        </div>
+                </form>
+            </div>
+        </div>        
+        <img class="fondo-ondas" src="./assets/fondo/ondas.svg" alt="ondas">   
     </body>
 </html>
