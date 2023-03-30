@@ -62,6 +62,18 @@ html, body{
 .form-group a{
     align-self: flex-end;
     margin-bottom: 40px;
+    color: #e21983;
+}
+.input-group-text{
+    background-color: white;
+    color: #945da1;
+    border-radius: 20px 0 0 20px;
+    border:
+}
+
+.form-control{
+    border-radius: 0 20px 20px 0;
+    border-left: 0;
 }
 .login{
     text-align: left;
@@ -72,4 +84,8 @@ html, body{
 .box{
     width: 100%;
     border-radius: 20px;
+    border: none;
+    height: 40px;
+    background-color: #e21983;
+    color: white;
 }
